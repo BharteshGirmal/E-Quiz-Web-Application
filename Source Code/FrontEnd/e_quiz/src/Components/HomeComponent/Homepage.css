@@ -1,5 +1,10 @@
 
     /* Style the main content */
+    *
+    {
+      overflow-y: unset;
+      overflow-x: hidden;
+    }
     .main {
       background-image: url("https://t4.ftcdn.net/jpg/03/10/40/41/240_F_310404162_SoQ3pGc5ctHO3B40f3YM2tnwWrV4XFlq.jpg");
       background-repeat: no-repeat;
@@ -29,7 +34,22 @@
 
     .about
     {  
-      background-image: url("https://www.vnaya.com/VnayaSite/assets/Backend/upload/blogs/website-design-background-1.jpg");
+      background-image: url("https://img.freepik.com/premium-vector/hexagon-technology-futuristic-dark-abstract-background-with-blue-pink-colored-bright-flashes_156943-999.jpg?w=1060");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .teacher
+    {  
+      background-image: url("https://wallpapercave.com/wp/wp9153565.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .student
+    {  
+      background-image: url("https://wallpapercave.com/wp/wp9153565.png");
+      background-size: cover;
       background-repeat: no-repeat;
     }
   

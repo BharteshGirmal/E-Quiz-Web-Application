@@ -96,7 +96,7 @@ export default function StudentDashboard()
       </td>
       <td>
       <div >
-      <NavLink exact to={`/StartExam/${data.quizId}`}>
+      <NavLink exact to={`/Instructions/${data.quizId}`}>
             <button className="btn btn-primary btn-sm mb-1">Start Exam</button>
       </NavLink>
       </div>

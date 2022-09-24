@@ -27,6 +27,7 @@ import FacultyProfileEdit from './Components/FacultyComponent/Login/FacultyProfi
 import ExamResult from './Components/StudentComponent/Exam/ExamResult';
 import DemoQuizResult from './Components/DemoQuizResult';
 import AllStudentResult from './Components/FacultyComponent/Question/AllStudentResult';
+import Instructions from './Components/StudentComponent/Exam/Instructions';
 function App() {
   return (
     <div>
@@ -57,6 +58,7 @@ function App() {
         <Route exact path='/FacultyProfileEdit' element={<FacultyProfileEdit/>}></Route>
         <Route exact path='/DemoQuizResult/:score' element={<DemoQuizResult/>}></Route>
         <Route exact path='/AllStudentResult' element={<AllStudentResult/>}></Route>
+        <Route exact path='/Instructions/:quizId' element={<Instructions/>}></Route>
       </Routes>
       </BrowserRouter>
 </div>
