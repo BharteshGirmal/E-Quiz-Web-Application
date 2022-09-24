@@ -64,7 +64,7 @@ export default function ViewAllQuestion()
                                     <NavLink exact to={`/DeleteQuestion/${JSON.stringify(data.questionId)}/${quizId}`}>
                                      <button className="btn btn-danger btn-mb mb-1">Delete</button>
                                      </NavLink>
-                                    <h6>__________________________________________________________________________________________</h6>
+                                    <h6><b>__________________________________________________________________________________________</b></h6>
                                     </div> 
                                     </div> 
                                     </div>

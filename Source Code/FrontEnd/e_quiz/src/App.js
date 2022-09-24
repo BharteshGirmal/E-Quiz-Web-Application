@@ -16,7 +16,6 @@ import DemoQuiz from './Components/DemoQuiz';
 import Feedback from './feedback';
 import StartExam from './Components/StudentComponent/Exam/StartExam';
 import ViewQuiz from './Components/FacultyComponent/Question/ViewQuiz';
-import Result from './Components/ResultComponent/Result';
 import FacultyLogout from './Components/FacultyComponent/Login/FacultyLogout';
 import StudentLogout from './Components/StudentComponent/StudentLoginComponent/StudentLogout';
 import StudentProfileEdit from './Components/StudentComponent/StudentLoginComponent/StudentProfileEdit';

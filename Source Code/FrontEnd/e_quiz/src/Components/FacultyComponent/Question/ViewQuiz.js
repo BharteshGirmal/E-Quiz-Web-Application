@@ -40,9 +40,8 @@ export default function ViewQuiz()
 <div className="about p-3 col-xl-12">
 <br/><br/> 
 <br/><br/> 
-
-<table className="table align-middle mb-0 border border-light bg-transparent text-light fw-bolder">
-  <thead className="bg-secondary text-light" style={{fontSize:"20px"}}>
+<table className="table align-middle mb-0 border border-light bg-transparent text-light">
+  <thead className="bg-dark text-light" style={{fontSize:"20px"}}>
     <tr>
       <th>Quiz ID</th>
       <th>Quiz Topic</th>

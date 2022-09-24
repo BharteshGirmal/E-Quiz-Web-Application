@@ -30,14 +30,10 @@ export default function StudentLogin()
       sessionStorage.setItem('student',JSON.stringify(result.data));
       
      }
-     else
-     {
-      alert('Inavlid Login');
-      navigate("/StudentLogin")
-
-     }
    }).then(navigate("/StudentDashboard"))
    .catch(error=>{
+    alert('Inavlid Login');
+    navigate("/StudentLogin");
      console.log(error);
      
    })
